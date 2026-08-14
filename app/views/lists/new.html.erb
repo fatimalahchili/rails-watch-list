@@ -4,5 +4,6 @@
   <%= simple_form_for @list do |form| %>
     <%= form.input :name %>
     <%= form.submit class: "btn btn-primary mt-3" %>
+    <%= link_to "Cancel", lists_path, class: "btn btn-outline-secondary mt-3 ms-2" %>
   <% end %>
 </div>
